@@ -1,0 +1,4 @@
+npm run start
+di cmd
+curl -X POST -H "Content-Type: application/json" http://localhost:5000 -d "{\"name\": \"Kim Hanbin\"}"
+outputnya kim hanbin
