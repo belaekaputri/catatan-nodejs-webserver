@@ -1,0 +1,10 @@
+-- buat folder baru
+-- npm init --y (otomatis file package.json akan muncul) --y untuk mengosongkan default npm?
+-- buat file baru dengan nama server.js
+-- tambah key "start" baru dari package.json dan panggil server.js
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tesserver.js" //tambahkan ini
+  }
+-- npm run start
+

@@ -1,0 +1,7 @@
+--npm run start (syarat di package.json sudah ditambahkan key startnya)
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+-- ke terminal lain ex cmd lalu curl -X GET http://localhost:5000/
+-- muncul <h1> Halo HTTP Server! </h1>

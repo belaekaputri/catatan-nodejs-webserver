@@ -1,0 +1,10 @@
+properti method dapat berupa get post put dlln
+-- diterminal project npm run start
+-- windows+r cmd 
+--di cmd coba tes 
+curl -X GET http://localhost:5000
+curl -X POST http://localhost:5000
+curl -X PUT http://localhost:5000
+curl -X DELETE http://localhost:5000
+
+maka akan muncul output sesuai dengan perintahnya
