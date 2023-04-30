@@ -1,0 +1,7 @@
+test
+curl -X GET http://localhost:5000/anything
+curl -X GET http://localhost:5000/test
+
+curl -X GET http://localhost:5000/
+curl -X GET http://localhost:5000/about
+curl -X DELETE http://localhost:5000/
