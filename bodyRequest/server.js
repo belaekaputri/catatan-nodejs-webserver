@@ -19,7 +19,7 @@ const requestListener=(request,response)=>{
         });
         request.on('end',()=>{
             body=Buffer.concat(body).toString();
-            const {name}=JSON.parse(body);
+            const {name}=JSON.parse(body); //JSONDIUBAHMENJADI OBJEK
             response.end(`<h1>Hai, ${name}! </h1>`);
         });
     }

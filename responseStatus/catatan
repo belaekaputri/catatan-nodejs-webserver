@@ -1,0 +1,37 @@
+/*response status merupakan respons yang berisikan tentang informasi apakah sebuah request
+berhasil atau gagal dilakukan.
+status yg diberikan berupa kode(status code) pesan dari kode tersebut(status message)
+
+statis code terdiri dari 3digit angka:
+100-199 : informational responses.
+200 - 299 : successful responses.
+300-399 : redirect.
+400-499 : client error.
+500-599 : server errors.*/
+
+//status code 404 di response (dari server)
+const requestListener=(request,response)=>{
+//memberitahu client bahwa request resource yg diminta tidak ada
+response.statusCode=404;
+};
+
+//message code
+const requestListene=(request,response)=>{
+    response.statusCode=404;
+
+    //404 not found diiusahan nilai responsernya default
+    //bisa diubah manjadi kayak dibawah
+    response.statusMessage='User is not found';
+}
+
+/* langkah uji coba
+
+npm run start terminal VS
+pai ka git bash/ cmd coba cek perintah dibawah
+curl -X GET http://localhost:5000/about -i
+ 
+curl -X GET http://localhost:5000/test -i
+ 
+curl -X DELETE http://localhost:5000/ -i
+
+*/
